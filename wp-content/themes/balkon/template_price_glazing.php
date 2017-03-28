@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Остекление балконов
+Template Name: цена остекления балконов
 */
 ?>
 <?php get_header(); ?>
@@ -9,6 +9,7 @@ Template Name: Остекление балконов
 		<img src="<?php echo get_template_directory_uri(); ?>/img/burg.png" alt="">
 	</div>
 </div>
+
 <?php get_template_part( 'breadcrumbs' );  ?>
 
 <section>
@@ -420,4 +421,5 @@ Template Name: Остекление балконов
 			</div>
 		</div>
 	</section>
-	<?php get_footer(); ?>
+
+<?php get_footer(); ?>
