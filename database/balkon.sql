@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 28 2017 г., 19:35
+-- Время создания: Мар 28 2017 г., 19:56
 -- Версия сервера: 5.7.16-log
 -- Версия PHP: 5.6.29
 
@@ -417,7 +417,197 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (156, 57, '_menu_item_target', ''),
 (157, 57, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
 (158, 57, '_menu_item_xfn', ''),
-(159, 57, '_menu_item_url', '');
+(159, 57, '_menu_item_url', ''),
+(161, 58, '_menu_item_type', 'post_type'),
+(162, 58, '_menu_item_menu_item_parent', '0'),
+(163, 58, '_menu_item_object_id', '50'),
+(164, 58, '_menu_item_object', 'page'),
+(165, 58, '_menu_item_target', ''),
+(166, 58, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(167, 58, '_menu_item_xfn', ''),
+(168, 58, '_menu_item_url', ''),
+(170, 59, '_menu_item_type', 'post_type'),
+(171, 59, '_menu_item_menu_item_parent', '0'),
+(172, 59, '_menu_item_object_id', '47'),
+(173, 59, '_menu_item_object', 'page'),
+(174, 59, '_menu_item_target', ''),
+(175, 59, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(176, 59, '_menu_item_xfn', ''),
+(177, 59, '_menu_item_url', ''),
+(179, 60, '_menu_item_type', 'post_type'),
+(180, 60, '_menu_item_menu_item_parent', '0'),
+(181, 60, '_menu_item_object_id', '36'),
+(182, 60, '_menu_item_object', 'page'),
+(183, 60, '_menu_item_target', ''),
+(184, 60, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(185, 60, '_menu_item_xfn', ''),
+(186, 60, '_menu_item_url', ''),
+(188, 61, '_menu_item_type', 'post_type'),
+(189, 61, '_menu_item_menu_item_parent', '0'),
+(190, 61, '_menu_item_object_id', '34'),
+(191, 61, '_menu_item_object', 'page'),
+(192, 61, '_menu_item_target', ''),
+(193, 61, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(194, 61, '_menu_item_xfn', ''),
+(195, 61, '_menu_item_url', ''),
+(197, 62, '_edit_last', '1'),
+(198, 62, '_wp_page_template', 'default'),
+(199, 62, '_edit_lock', '1490719261:1'),
+(200, 64, '_edit_last', '1'),
+(201, 64, '_wp_page_template', 'default'),
+(202, 64, '_edit_lock', '1490719269:1'),
+(203, 66, '_menu_item_type', 'post_type'),
+(204, 66, '_menu_item_menu_item_parent', '0'),
+(205, 66, '_menu_item_object_id', '64'),
+(206, 66, '_menu_item_object', 'page'),
+(207, 66, '_menu_item_target', ''),
+(208, 66, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(209, 66, '_menu_item_xfn', ''),
+(210, 66, '_menu_item_url', ''),
+(212, 67, '_menu_item_type', 'post_type'),
+(213, 67, '_menu_item_menu_item_parent', '0'),
+(214, 67, '_menu_item_object_id', '62'),
+(215, 67, '_menu_item_object', 'page'),
+(216, 67, '_menu_item_target', ''),
+(217, 67, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(218, 67, '_menu_item_xfn', ''),
+(219, 67, '_menu_item_url', ''),
+(221, 68, '_menu_item_type', 'post_type'),
+(222, 68, '_menu_item_menu_item_parent', '0'),
+(223, 68, '_menu_item_object_id', '22'),
+(224, 68, '_menu_item_object', 'page'),
+(225, 68, '_menu_item_target', ''),
+(226, 68, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(227, 68, '_menu_item_xfn', ''),
+(228, 68, '_menu_item_url', ''),
+(230, 69, '_menu_item_type', 'post_type'),
+(231, 69, '_menu_item_menu_item_parent', '0'),
+(232, 69, '_menu_item_object_id', '24'),
+(233, 69, '_menu_item_object', 'page'),
+(234, 69, '_menu_item_target', ''),
+(235, 69, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(236, 69, '_menu_item_xfn', ''),
+(237, 69, '_menu_item_url', ''),
+(239, 70, '_menu_item_type', 'post_type'),
+(240, 70, '_menu_item_menu_item_parent', '0'),
+(241, 70, '_menu_item_object_id', '11'),
+(242, 70, '_menu_item_object', 'page'),
+(243, 70, '_menu_item_target', ''),
+(244, 70, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(245, 70, '_menu_item_xfn', ''),
+(246, 70, '_menu_item_url', ''),
+(248, 71, '_menu_item_type', 'post_type'),
+(249, 71, '_menu_item_menu_item_parent', '0'),
+(250, 71, '_menu_item_object_id', '15'),
+(251, 71, '_menu_item_object', 'page'),
+(252, 71, '_menu_item_target', ''),
+(253, 71, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(254, 71, '_menu_item_xfn', ''),
+(255, 71, '_menu_item_url', ''),
+(257, 72, '_menu_item_type', 'post_type'),
+(258, 72, '_menu_item_menu_item_parent', '0'),
+(259, 72, '_menu_item_object_id', '4'),
+(260, 72, '_menu_item_object', 'page'),
+(261, 72, '_menu_item_target', ''),
+(262, 72, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(263, 72, '_menu_item_xfn', ''),
+(264, 72, '_menu_item_url', ''),
+(266, 73, '_edit_last', '1'),
+(267, 73, '_wp_page_template', 'default'),
+(268, 73, '_edit_lock', '1490719521:1'),
+(269, 75, '_edit_last', '1'),
+(270, 75, '_wp_page_template', 'default'),
+(271, 75, '_edit_lock', '1490719571:1'),
+(272, 77, '_edit_last', '1'),
+(273, 77, '_wp_page_template', 'default'),
+(274, 77, '_edit_lock', '1490719579:1'),
+(275, 79, '_edit_last', '1'),
+(276, 79, '_wp_page_template', 'default'),
+(277, 79, '_edit_lock', '1490719592:1'),
+(278, 81, '_edit_last', '1'),
+(279, 81, '_wp_page_template', 'default'),
+(280, 81, '_edit_lock', '1490719599:1'),
+(281, 83, '_edit_last', '1'),
+(282, 83, '_wp_page_template', 'default'),
+(283, 83, '_edit_lock', '1490719635:1'),
+(284, 87, '_menu_item_type', 'post_type'),
+(285, 87, '_menu_item_menu_item_parent', '0'),
+(286, 87, '_menu_item_object_id', '83'),
+(287, 87, '_menu_item_object', 'page'),
+(288, 87, '_menu_item_target', ''),
+(289, 87, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(290, 87, '_menu_item_xfn', ''),
+(291, 87, '_menu_item_url', ''),
+(293, 88, '_menu_item_type', 'post_type'),
+(294, 88, '_menu_item_menu_item_parent', '0'),
+(295, 88, '_menu_item_object_id', '81'),
+(296, 88, '_menu_item_object', 'page'),
+(297, 88, '_menu_item_target', ''),
+(298, 88, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(299, 88, '_menu_item_xfn', ''),
+(300, 88, '_menu_item_url', ''),
+(302, 89, '_menu_item_type', 'post_type'),
+(303, 89, '_menu_item_menu_item_parent', '0'),
+(304, 89, '_menu_item_object_id', '79'),
+(305, 89, '_menu_item_object', 'page'),
+(306, 89, '_menu_item_target', ''),
+(307, 89, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(308, 89, '_menu_item_xfn', ''),
+(309, 89, '_menu_item_url', ''),
+(311, 90, '_menu_item_type', 'post_type'),
+(312, 90, '_menu_item_menu_item_parent', '0'),
+(313, 90, '_menu_item_object_id', '77'),
+(314, 90, '_menu_item_object', 'page'),
+(315, 90, '_menu_item_target', ''),
+(316, 90, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(317, 90, '_menu_item_xfn', ''),
+(318, 90, '_menu_item_url', ''),
+(320, 91, '_menu_item_type', 'post_type'),
+(321, 91, '_menu_item_menu_item_parent', '0'),
+(322, 91, '_menu_item_object_id', '75'),
+(323, 91, '_menu_item_object', 'page'),
+(324, 91, '_menu_item_target', ''),
+(325, 91, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(326, 91, '_menu_item_xfn', ''),
+(327, 91, '_menu_item_url', ''),
+(329, 92, '_menu_item_type', 'post_type'),
+(330, 92, '_menu_item_menu_item_parent', '0'),
+(331, 92, '_menu_item_object_id', '73'),
+(332, 92, '_menu_item_object', 'page'),
+(333, 92, '_menu_item_target', ''),
+(334, 92, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(335, 92, '_menu_item_xfn', ''),
+(336, 92, '_menu_item_url', ''),
+(338, 93, '_menu_item_type', 'post_type'),
+(339, 93, '_menu_item_menu_item_parent', '0'),
+(340, 93, '_menu_item_object_id', '17'),
+(341, 93, '_menu_item_object', 'page'),
+(342, 93, '_menu_item_target', ''),
+(343, 93, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(344, 93, '_menu_item_xfn', ''),
+(345, 93, '_menu_item_url', ''),
+(347, 94, '_edit_last', '1'),
+(348, 94, '_wp_page_template', 'default'),
+(349, 94, '_edit_lock', '1490719765:1'),
+(350, 96, '_edit_last', '1'),
+(351, 96, '_edit_lock', '1490719850:1'),
+(352, 96, '_wp_page_template', 'default'),
+(353, 98, '_menu_item_type', 'post_type'),
+(354, 98, '_menu_item_menu_item_parent', '0'),
+(355, 98, '_menu_item_object_id', '96'),
+(356, 98, '_menu_item_object', 'page'),
+(357, 98, '_menu_item_target', ''),
+(358, 98, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(359, 98, '_menu_item_xfn', ''),
+(360, 98, '_menu_item_url', ''),
+(362, 99, '_menu_item_type', 'post_type'),
+(363, 99, '_menu_item_menu_item_parent', '0'),
+(364, 99, '_menu_item_object_id', '94'),
+(365, 99, '_menu_item_object', 'page'),
+(366, 99, '_menu_item_target', ''),
+(367, 99, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(368, 99, '_menu_item_xfn', ''),
+(369, 99, '_menu_item_url', '');
 
 -- --------------------------------------------------------
 
@@ -512,7 +702,49 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (54, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', '', 'Утепление балконов', '', 'publish', 'closed', 'closed', '', '%d1%83%d1%82%d0%b5%d0%bf%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b1%d0%b0%d0%bb%d0%ba%d0%be%d0%bd%d0%be%d0%b2', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=54', 3, 'nav_menu_item', '', 0),
 (55, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', '', 'Отделка балконов', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%ba%d0%b0-%d0%b1%d0%b0%d0%bb%d0%ba%d0%be%d0%bd%d0%be%d0%b2', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=55', 2, 'nav_menu_item', '', 0),
 (56, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', ' ', '', '', 'publish', 'closed', 'closed', '', '56', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=56', 1, 'nav_menu_item', '', 0),
-(57, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', ' ', '', '', 'publish', 'closed', 'closed', '', '57', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=57', 4, 'nav_menu_item', '', 0);
+(57, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', ' ', '', '', 'publish', 'closed', 'closed', '', '57', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=57', 4, 'nav_menu_item', '', 0),
+(58, 1, '2017-03-28 19:42:14', '2017-03-28 16:42:14', ' ', '', '', 'publish', 'closed', 'closed', '', '58', '', '', '2017-03-28 19:42:42', '2017-03-28 16:42:42', '', 0, 'http://balkon2.loc/?p=58', 2, 'nav_menu_item', '', 0),
+(59, 1, '2017-03-28 19:42:14', '2017-03-28 16:42:14', ' ', '', '', 'publish', 'closed', 'closed', '', '59', '', '', '2017-03-28 19:42:42', '2017-03-28 16:42:42', '', 0, 'http://balkon2.loc/?p=59', 1, 'nav_menu_item', '', 0),
+(60, 1, '2017-03-28 19:42:14', '2017-03-28 16:42:14', ' ', '', '', 'publish', 'closed', 'closed', '', '60', '', '', '2017-03-28 19:42:42', '2017-03-28 16:42:42', '', 0, 'http://balkon2.loc/?p=60', 3, 'nav_menu_item', '', 0),
+(61, 1, '2017-03-28 19:42:14', '2017-03-28 16:42:14', ' ', '', '', 'publish', 'closed', 'closed', '', '61', '', '', '2017-03-28 19:42:42', '2017-03-28 16:42:42', '', 0, 'http://balkon2.loc/?p=61', 4, 'nav_menu_item', '', 0),
+(62, 1, '2017-03-28 19:43:24', '2017-03-28 16:43:24', '', 'Профили остекления', '', 'publish', 'closed', 'closed', '', '%d0%bf%d1%80%d0%be%d1%84%d0%b8%d0%bb%d0%b8-%d0%be%d1%81%d1%82%d0%b5%d0%ba%d0%bb%d0%b5%d0%bd%d0%b8%d1%8f', '', '', '2017-03-28 19:43:24', '2017-03-28 16:43:24', '', 0, 'http://balkon2.loc/?page_id=62', 0, 'page', '', 0),
+(63, 1, '2017-03-28 19:43:24', '2017-03-28 16:43:24', '', 'Профили остекления', '', 'inherit', 'closed', 'closed', '', '62-revision-v1', '', '', '2017-03-28 19:43:24', '2017-03-28 16:43:24', '', 62, 'http://balkon2.loc/2017/03/28/62-revision-v1/', 0, 'revision', '', 0),
+(64, 1, '2017-03-28 19:43:30', '2017-03-28 16:43:30', '', 'Калькулятор', '', 'publish', 'closed', 'closed', '', '%d0%ba%d0%b0%d0%bb%d1%8c%d0%ba%d1%83%d0%bb%d1%8f%d1%82%d0%be%d1%80', '', '', '2017-03-28 19:43:30', '2017-03-28 16:43:30', '', 0, 'http://balkon2.loc/?page_id=64', 0, 'page', '', 0),
+(65, 1, '2017-03-28 19:43:30', '2017-03-28 16:43:30', '', 'Калькулятор', '', 'inherit', 'closed', 'closed', '', '64-revision-v1', '', '', '2017-03-28 19:43:30', '2017-03-28 16:43:30', '', 64, 'http://balkon2.loc/2017/03/28/64-revision-v1/', 0, 'revision', '', 0),
+(66, 1, '2017-03-28 19:44:42', '2017-03-28 16:44:42', ' ', '', '', 'publish', 'closed', 'closed', '', '66', '', '', '2017-03-28 19:46:44', '2017-03-28 16:46:44', '', 0, 'http://balkon2.loc/?p=66', 7, 'nav_menu_item', '', 0),
+(67, 1, '2017-03-28 19:44:42', '2017-03-28 16:44:42', ' ', '', '', 'publish', 'closed', 'closed', '', '67', '', '', '2017-03-28 19:46:44', '2017-03-28 16:46:44', '', 0, 'http://balkon2.loc/?p=67', 3, 'nav_menu_item', '', 0),
+(68, 1, '2017-03-28 19:44:42', '2017-03-28 16:44:42', '', 'Цена остекления', '', 'publish', 'closed', 'closed', '', '%d1%86%d0%b5%d0%bd%d0%b0-%d0%be%d1%81%d1%82%d0%b5%d0%ba%d0%bb%d0%b5%d0%bd%d0%b8%d1%8f', '', '', '2017-03-28 19:46:44', '2017-03-28 16:46:44', '', 0, 'http://balkon2.loc/?p=68', 5, 'nav_menu_item', '', 0),
+(69, 1, '2017-03-28 19:44:42', '2017-03-28 16:44:42', ' ', '', '', 'publish', 'closed', 'closed', '', '69', '', '', '2017-03-28 19:46:44', '2017-03-28 16:46:44', '', 0, 'http://balkon2.loc/?p=69', 6, 'nav_menu_item', '', 0),
+(70, 1, '2017-03-28 19:44:42', '2017-03-28 16:44:42', ' ', '', '', 'publish', 'closed', 'closed', '', '70', '', '', '2017-03-28 19:46:44', '2017-03-28 16:46:44', '', 0, 'http://balkon2.loc/?p=70', 4, 'nav_menu_item', '', 0),
+(71, 1, '2017-03-28 19:44:42', '2017-03-28 16:44:42', ' ', '', '', 'publish', 'closed', 'closed', '', '71', '', '', '2017-03-28 19:46:44', '2017-03-28 16:46:44', '', 0, 'http://balkon2.loc/?p=71', 1, 'nav_menu_item', '', 0),
+(72, 1, '2017-03-28 19:44:42', '2017-03-28 16:44:42', ' ', '', '', 'publish', 'closed', 'closed', '', '72', '', '', '2017-03-28 19:46:44', '2017-03-28 16:46:44', '', 0, 'http://balkon2.loc/?p=72', 2, 'nav_menu_item', '', 0),
+(73, 1, '2017-03-28 19:47:44', '2017-03-28 16:47:44', '', 'Идеи дизайна', '', 'publish', 'closed', 'closed', '', '%d0%b8%d0%b4%d0%b5%d0%b8-%d0%b4%d0%b8%d0%b7%d0%b0%d0%b9%d0%bd%d0%b0', '', '', '2017-03-28 19:47:44', '2017-03-28 16:47:44', '', 0, 'http://balkon2.loc/?page_id=73', 0, 'page', '', 0),
+(74, 1, '2017-03-28 19:47:44', '2017-03-28 16:47:44', '', 'Идеи дизайна', '', 'inherit', 'closed', 'closed', '', '73-revision-v1', '', '', '2017-03-28 19:47:44', '2017-03-28 16:47:44', '', 73, 'http://balkon2.loc/2017/03/28/73-revision-v1/', 0, 'revision', '', 0),
+(75, 1, '2017-03-28 19:48:20', '2017-03-28 16:48:20', '', 'Отделка пластиковыми панелями', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%ba%d0%b0-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%be%d0%b2%d1%8b%d0%bc%d0%b8-%d0%bf%d0%b0%d0%bd%d0%b5%d0%bb%d1%8f%d0%bc%d0%b8', '', '', '2017-03-28 19:48:27', '2017-03-28 16:48:27', '', 0, 'http://balkon2.loc/?page_id=75', 0, 'page', '', 0),
+(76, 1, '2017-03-28 19:48:20', '2017-03-28 16:48:20', '', 'Отделка пластиковыми панелями', '', 'inherit', 'closed', 'closed', '', '75-revision-v1', '', '', '2017-03-28 19:48:20', '2017-03-28 16:48:20', '', 75, 'http://balkon2.loc/2017/03/28/75-revision-v1/', 0, 'revision', '', 0),
+(77, 1, '2017-03-28 19:48:43', '2017-03-28 16:48:43', '', 'Отделка вагонкой', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%ba%d0%b0-%d0%b2%d0%b0%d0%b3%d0%be%d0%bd%d0%ba%d0%be%d0%b9', '', '', '2017-03-28 19:48:43', '2017-03-28 16:48:43', '', 0, 'http://balkon2.loc/?page_id=77', 0, 'page', '', 0),
+(78, 1, '2017-03-28 19:48:43', '2017-03-28 16:48:43', '', 'Отделка вагонкой', '', 'inherit', 'closed', 'closed', '', '77-revision-v1', '', '', '2017-03-28 19:48:43', '2017-03-28 16:48:43', '', 77, 'http://balkon2.loc/2017/03/28/77-revision-v1/', 0, 'revision', '', 0),
+(79, 1, '2017-03-28 19:48:49', '2017-03-28 16:48:49', '', 'Отделка МФД', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%ba%d0%b0-%d0%bc%d1%84%d0%b4', '', '', '2017-03-28 19:48:49', '2017-03-28 16:48:49', '', 0, 'http://balkon2.loc/?page_id=79', 0, 'page', '', 0),
+(80, 1, '2017-03-28 19:48:49', '2017-03-28 16:48:49', '', 'Отделка МФД', '', 'inherit', 'closed', 'closed', '', '79-revision-v1', '', '', '2017-03-28 19:48:49', '2017-03-28 16:48:49', '', 79, 'http://balkon2.loc/2017/03/28/79-revision-v1/', 0, 'revision', '', 0),
+(81, 1, '2017-03-28 19:49:03', '2017-03-28 16:49:03', '', 'Отделка штукатуркой', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%ba%d0%b0-%d1%88%d1%82%d1%83%d0%ba%d0%b0%d1%82%d1%83%d1%80%d0%ba%d0%be%d0%b9', '', '', '2017-03-28 19:49:03', '2017-03-28 16:49:03', '', 0, 'http://balkon2.loc/?page_id=81', 0, 'page', '', 0),
+(82, 1, '2017-03-28 19:49:03', '2017-03-28 16:49:03', '', 'Отделка штукатуркой', '', 'inherit', 'closed', 'closed', '', '81-revision-v1', '', '', '2017-03-28 19:49:03', '2017-03-28 16:49:03', '', 81, 'http://balkon2.loc/2017/03/28/81-revision-v1/', 0, 'revision', '', 0),
+(83, 1, '2017-03-28 19:49:10', '2017-03-28 16:49:10', '', 'Утепление лоджии', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%ba%d0%b0-%d0%ba%d0%b0%d0%bc%d0%bd%d0%b5%d0%bc', '', '', '2017-03-28 19:49:37', '2017-03-28 16:49:37', '', 0, 'http://balkon2.loc/?page_id=83', 0, 'page', '', 0),
+(84, 1, '2017-03-28 19:49:10', '2017-03-28 16:49:10', '', 'Отделка камнем', '', 'inherit', 'closed', 'closed', '', '83-revision-v1', '', '', '2017-03-28 19:49:10', '2017-03-28 16:49:10', '', 83, 'http://balkon2.loc/2017/03/28/83-revision-v1/', 0, 'revision', '', 0),
+(85, 1, '2017-03-28 19:49:22', '2017-03-28 16:49:22', '', 'Отделка кирпичём', '', 'inherit', 'closed', 'closed', '', '83-revision-v1', '', '', '2017-03-28 19:49:22', '2017-03-28 16:49:22', '', 83, 'http://balkon2.loc/2017/03/28/83-revision-v1/', 0, 'revision', '', 0),
+(86, 1, '2017-03-28 19:49:37', '2017-03-28 16:49:37', '', 'Утепление лоджии', '', 'inherit', 'closed', 'closed', '', '83-revision-v1', '', '', '2017-03-28 19:49:37', '2017-03-28 16:49:37', '', 83, 'http://balkon2.loc/2017/03/28/83-revision-v1/', 0, 'revision', '', 0),
+(87, 1, '2017-03-28 19:51:28', '2017-03-28 16:51:28', ' ', '', '', 'publish', 'closed', 'closed', '', '87', '', '', '2017-03-28 19:53:32', '2017-03-28 16:53:32', '', 0, 'http://balkon2.loc/?p=87', 8, 'nav_menu_item', '', 0),
+(88, 1, '2017-03-28 19:51:28', '2017-03-28 16:51:28', ' ', '', '', 'publish', 'closed', 'closed', '', '88', '', '', '2017-03-28 19:53:32', '2017-03-28 16:53:32', '', 0, 'http://balkon2.loc/?p=88', 5, 'nav_menu_item', '', 0),
+(89, 1, '2017-03-28 19:51:28', '2017-03-28 16:51:28', ' ', '', '', 'publish', 'closed', 'closed', '', '89', '', '', '2017-03-28 19:53:32', '2017-03-28 16:53:32', '', 0, 'http://balkon2.loc/?p=89', 4, 'nav_menu_item', '', 0),
+(90, 1, '2017-03-28 19:51:28', '2017-03-28 16:51:28', ' ', '', '', 'publish', 'closed', 'closed', '', '90', '', '', '2017-03-28 19:53:32', '2017-03-28 16:53:32', '', 0, 'http://balkon2.loc/?p=90', 3, 'nav_menu_item', '', 0),
+(91, 1, '2017-03-28 19:51:28', '2017-03-28 16:51:28', ' ', '', '', 'publish', 'closed', 'closed', '', '91', '', '', '2017-03-28 19:53:32', '2017-03-28 16:53:32', '', 0, 'http://balkon2.loc/?p=91', 2, 'nav_menu_item', '', 0),
+(92, 1, '2017-03-28 19:51:28', '2017-03-28 16:51:28', ' ', '', '', 'publish', 'closed', 'closed', '', '92', '', '', '2017-03-28 19:53:32', '2017-03-28 16:53:32', '', 0, 'http://balkon2.loc/?p=92', 1, 'nav_menu_item', '', 0),
+(93, 1, '2017-03-28 19:51:28', '2017-03-28 16:51:28', ' ', '', '', 'publish', 'closed', 'closed', '', '93', '', '', '2017-03-28 19:53:32', '2017-03-28 16:53:32', '', 0, 'http://balkon2.loc/?p=93', 9, 'nav_menu_item', '', 0),
+(94, 1, '2017-03-28 19:51:48', '2017-03-28 16:51:48', '', 'Отделка камнем', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%ba%d0%b0-%d0%ba%d0%b0%d0%bc%d0%bd%d0%b5%d0%bc-2', '', '', '2017-03-28 19:51:48', '2017-03-28 16:51:48', '', 0, 'http://balkon2.loc/?page_id=94', 0, 'page', '', 0),
+(95, 1, '2017-03-28 19:51:48', '2017-03-28 16:51:48', '', 'Отделка камнем', '', 'inherit', 'closed', 'closed', '', '94-revision-v1', '', '', '2017-03-28 19:51:48', '2017-03-28 16:51:48', '', 94, 'http://balkon2.loc/2017/03/28/94-revision-v1/', 0, 'revision', '', 0),
+(96, 1, '2017-03-28 19:53:10', '2017-03-28 16:53:10', '', 'Отделка кирпичем', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%ba%d0%b0-%d0%ba%d0%b8%d1%80%d0%bf%d0%b8%d1%87%d0%b5%d0%bc', '', '', '2017-03-28 19:53:10', '2017-03-28 16:53:10', '', 0, 'http://balkon2.loc/?page_id=96', 0, 'page', '', 0),
+(97, 1, '2017-03-28 19:53:10', '2017-03-28 16:53:10', '', 'Отделка кирпичем', '', 'inherit', 'closed', 'closed', '', '96-revision-v1', '', '', '2017-03-28 19:53:10', '2017-03-28 16:53:10', '', 96, 'http://balkon2.loc/2017/03/28/96-revision-v1/', 0, 'revision', '', 0),
+(98, 1, '2017-03-28 19:53:32', '2017-03-28 16:53:32', ' ', '', '', 'publish', 'closed', 'closed', '', '98', '', '', '2017-03-28 19:53:32', '2017-03-28 16:53:32', '', 0, 'http://balkon2.loc/?p=98', 7, 'nav_menu_item', '', 0),
+(99, 1, '2017-03-28 19:53:32', '2017-03-28 16:53:32', ' ', '', '', 'publish', 'closed', 'closed', '', '99', '', '', '2017-03-28 19:53:32', '2017-03-28 16:53:32', '', 0, 'http://balkon2.loc/?p=99', 6, 'nav_menu_item', '', 0);
 
 -- --------------------------------------------------------
 
@@ -547,7 +779,10 @@ CREATE TABLE `wp_terms` (
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (1, 'Без рубрики', '%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8', 0),
 (2, 'Main menu', 'main-menu', 0),
-(3, 'Second menu', 'second-menu', 0);
+(3, 'Second menu', 'second-menu', 0),
+(4, 'footer menu about', 'footer-menu-about', 0),
+(5, 'footer menu glazing', 'footer-menu-glazing', 0),
+(6, 'footer menu design', 'footer-menu-design', 0);
 
 -- --------------------------------------------------------
 
@@ -577,7 +812,27 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (54, 3, 0),
 (55, 3, 0),
 (56, 3, 0),
-(57, 3, 0);
+(57, 3, 0),
+(58, 4, 0),
+(59, 4, 0),
+(60, 4, 0),
+(61, 4, 0),
+(66, 5, 0),
+(67, 5, 0),
+(68, 5, 0),
+(69, 5, 0),
+(70, 5, 0),
+(71, 5, 0),
+(72, 5, 0),
+(87, 6, 0),
+(88, 6, 0),
+(89, 6, 0),
+(90, 6, 0),
+(91, 6, 0),
+(92, 6, 0),
+(93, 6, 0),
+(98, 6, 0),
+(99, 6, 0);
 
 -- --------------------------------------------------------
 
@@ -601,7 +856,10 @@ CREATE TABLE `wp_term_taxonomy` (
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
 (1, 1, 'category', '', 0, 1),
 (2, 2, 'nav_menu', '', 0, 5),
-(3, 3, 'nav_menu', '', 0, 6);
+(3, 3, 'nav_menu', '', 0, 6),
+(4, 4, 'nav_menu', '', 0, 4),
+(5, 5, 'nav_menu', '', 0, 7),
+(6, 6, 'nav_menu', '', 0, 9);
 
 -- --------------------------------------------------------
 
@@ -638,7 +896,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (15, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
 (16, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
 (17, 1, 'metaboxhidden_nav-menus', 'a:5:{i:0;s:26:\"add-post-type-testimonials\";i:1;s:20:\"add-post-type-events\";i:2;s:22:\"add-post-type-articles\";i:3;s:19:\"add-post-type-works\";i:4;s:12:\"add-post_tag\";}'),
-(18, 1, 'nav_menu_recently_edited', '3');
+(18, 1, 'nav_menu_recently_edited', '6');
 
 -- --------------------------------------------------------
 
@@ -797,12 +1055,12 @@ ALTER TABLE `wp_options`
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=161;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=371;
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100;
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`
 --
@@ -812,12 +1070,12 @@ ALTER TABLE `wp_termmeta`
 -- AUTO_INCREMENT для таблицы `wp_terms`
 --
 ALTER TABLE `wp_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT для таблицы `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT для таблицы `wp_usermeta`
 --

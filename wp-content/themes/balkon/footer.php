@@ -5,36 +5,76 @@
 					<div class="col-md-2 col-lg-3 col-xs-6 footer-top__blocks">
 						<p class="footer-item__title">О компании</p>
 						<ul class="footer-list">
-							<li class="footer-item"><a href="#" class="footer-list__link">Наши работы</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Отзывы</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Акции</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Статьи</a></li>
+							<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'footer menu about', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'menu', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="main-menu">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
 						</ul>
 					</div>
 					<div class="col-md-3 col-xs-6 footer-top__blocks">
 						<p class="footer-item__title">Остекление балконов</p>
 						<ul class="footer-list">
-							<li class="footer-item"><a href="#" class="footer-list__link">Теплое остекление</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Холодное остекление</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Профили остекления</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Остекление с выносом</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Цена остекления</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Цена отделки</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Калькулятор</a></li>
+							<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'footer menu balkon', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'menu', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="main-menu">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
 						</ul>
 					</div>
 					<div class="col-md-3 col-xs-12 col-sm-6">
 						<p class="footer-item__title">Отделка балконов</p>
 						<ul class="footer-list">
-							<li class="footer-item"><a href="#" class="footer-list__link">Идеи дизайна</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Отделка пластиковыми панелями</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Отделка вагонкой</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Отделак МДФ</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Отделка штукатуркой</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Отделка камнем</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Отделка кирпичем</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Утепление лоджии</a></li>
-							<li class="footer-item"><a href="#" class="footer-list__link">Теплый пол</a></li>
+							<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'footer menu design', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'menu', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="main-menu">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
 						</ul>
 					</div>
 					<div class="col-md-4 col-lg-3 col-xs-12 col-sm-6">
