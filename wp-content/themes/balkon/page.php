@@ -38,7 +38,7 @@
 <section class="section section_padding dfpadding"> 
 	<div class="container">
 		<h1 class="db-our-h1"><?php the_title(); ?></h1>
-		<div class="dftxtbottom dfwarmpd">Кто-то желает превратить балкон в теплую и комфортабельную комнату, кто-то использует его в качестве технического или хозяйственного помещения, а кому-то достаточно, чтобы внутрь лоджии просто не попадали осадки, пыль и грязь.</div>
+		<div class="dftxtbottom dfwarmpd"><?php the_content(); ?></div>
 	</div>
 </section>
 
