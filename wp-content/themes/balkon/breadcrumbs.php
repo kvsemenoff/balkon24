@@ -6,8 +6,7 @@
 			<div class="col-md-8">
 				
 				<div class="dd-brad-cramp dd-pad_top">
-					<a href="#">
-<?php if( function_exists('kama_breadcrumbs') ) kama_breadcrumbs(); ?></a>
+					<?php if( function_exists('kama_breadcrumbs') ) kama_breadcrumbs(); ?>
 				</div>
 
 			</div>
