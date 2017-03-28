@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 28 2017 г., 19:23
+-- Время создания: Мар 28 2017 г., 19:35
 -- Версия сервера: 5.7.16-log
 -- Версия PHP: 5.6.29
 
@@ -363,7 +363,61 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (96, 46, '_menu_item_target', ''),
 (97, 46, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
 (98, 46, '_menu_item_xfn', ''),
-(99, 46, '_menu_item_url', '');
+(99, 46, '_menu_item_url', ''),
+(101, 47, '_edit_last', '1'),
+(102, 47, '_wp_page_template', 'default'),
+(103, 47, '_edit_lock', '1490718602:1'),
+(104, 50, '_edit_last', '1'),
+(105, 50, '_wp_page_template', 'default'),
+(106, 50, '_edit_lock', '1490718631:1'),
+(107, 52, '_menu_item_type', 'post_type'),
+(108, 52, '_menu_item_menu_item_parent', '0'),
+(109, 52, '_menu_item_object_id', '50'),
+(110, 52, '_menu_item_object', 'page'),
+(111, 52, '_menu_item_target', ''),
+(112, 52, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(113, 52, '_menu_item_xfn', ''),
+(114, 52, '_menu_item_url', ''),
+(116, 53, '_menu_item_type', 'post_type'),
+(117, 53, '_menu_item_menu_item_parent', '0'),
+(118, 53, '_menu_item_object_id', '47'),
+(119, 53, '_menu_item_object', 'page'),
+(120, 53, '_menu_item_target', ''),
+(121, 53, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(122, 53, '_menu_item_xfn', ''),
+(123, 53, '_menu_item_url', ''),
+(125, 54, '_menu_item_type', 'post_type'),
+(126, 54, '_menu_item_menu_item_parent', '0'),
+(127, 54, '_menu_item_object_id', '20'),
+(128, 54, '_menu_item_object', 'page'),
+(129, 54, '_menu_item_target', ''),
+(130, 54, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(131, 54, '_menu_item_xfn', ''),
+(132, 54, '_menu_item_url', ''),
+(134, 55, '_menu_item_type', 'post_type'),
+(135, 55, '_menu_item_menu_item_parent', '0'),
+(136, 55, '_menu_item_object_id', '13'),
+(137, 55, '_menu_item_object', 'page'),
+(138, 55, '_menu_item_target', ''),
+(139, 55, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(140, 55, '_menu_item_xfn', ''),
+(141, 55, '_menu_item_url', ''),
+(143, 56, '_menu_item_type', 'post_type'),
+(144, 56, '_menu_item_menu_item_parent', '0'),
+(145, 56, '_menu_item_object_id', '7'),
+(146, 56, '_menu_item_object', 'page'),
+(147, 56, '_menu_item_target', ''),
+(148, 56, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(149, 56, '_menu_item_xfn', ''),
+(150, 56, '_menu_item_url', ''),
+(152, 57, '_menu_item_type', 'post_type'),
+(153, 57, '_menu_item_menu_item_parent', '0'),
+(154, 57, '_menu_item_object_id', '26'),
+(155, 57, '_menu_item_object', 'page'),
+(156, 57, '_menu_item_target', ''),
+(157, 57, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(158, 57, '_menu_item_xfn', ''),
+(159, 57, '_menu_item_url', '');
 
 -- --------------------------------------------------------
 
@@ -443,11 +497,22 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (39, 1, '2017-03-28 19:17:53', '2017-03-28 16:17:53', '', 'Коньакьы', '', 'inherit', 'closed', 'closed', '', '38-revision-v1', '', '', '2017-03-28 19:17:53', '2017-03-28 16:17:53', '', 38, 'http://balkon2.loc/2017/03/28/38-revision-v1/', 0, 'revision', '', 0),
 (40, 1, '2017-03-28 19:18:02', '2017-03-28 16:18:02', '', 'Коньакты', '', 'inherit', 'closed', 'closed', '', '38-revision-v1', '', '', '2017-03-28 19:18:02', '2017-03-28 16:18:02', '', 38, 'http://balkon2.loc/2017/03/28/38-revision-v1/', 0, 'revision', '', 0),
 (41, 1, '2017-03-28 19:18:14', '2017-03-28 16:18:14', '', 'Контакты', '', 'inherit', 'closed', 'closed', '', '38-revision-v1', '', '', '2017-03-28 19:18:14', '2017-03-28 16:18:14', '', 38, 'http://balkon2.loc/2017/03/28/38-revision-v1/', 0, 'revision', '', 0),
-(42, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '42', '', '', '2017-03-28 19:22:00', '2017-03-28 16:22:00', '', 0, 'http://balkon2.loc/?p=42', 1, 'nav_menu_item', '', 0),
-(43, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '43', '', '', '2017-03-28 19:22:00', '2017-03-28 16:22:00', '', 0, 'http://balkon2.loc/?p=43', 2, 'nav_menu_item', '', 0),
-(44, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '44', '', '', '2017-03-28 19:22:00', '2017-03-28 16:22:00', '', 0, 'http://balkon2.loc/?p=44', 3, 'nav_menu_item', '', 0),
-(45, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '45', '', '', '2017-03-28 19:22:00', '2017-03-28 16:22:00', '', 0, 'http://balkon2.loc/?p=45', 4, 'nav_menu_item', '', 0),
-(46, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '46', '', '', '2017-03-28 19:22:00', '2017-03-28 16:22:00', '', 0, 'http://balkon2.loc/?p=46', 5, 'nav_menu_item', '', 0);
+(42, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '42', '', '', '2017-03-28 19:29:33', '2017-03-28 16:29:33', '', 0, 'http://balkon2.loc/?p=42', 5, 'nav_menu_item', '', 0),
+(43, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '43', '', '', '2017-03-28 19:29:33', '2017-03-28 16:29:33', '', 0, 'http://balkon2.loc/?p=43', 4, 'nav_menu_item', '', 0),
+(44, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '44', '', '', '2017-03-28 19:29:33', '2017-03-28 16:29:33', '', 0, 'http://balkon2.loc/?p=44', 3, 'nav_menu_item', '', 0),
+(45, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '45', '', '', '2017-03-28 19:29:33', '2017-03-28 16:29:33', '', 0, 'http://balkon2.loc/?p=45', 2, 'nav_menu_item', '', 0),
+(46, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '46', '', '', '2017-03-28 19:29:33', '2017-03-28 16:29:33', '', 0, 'http://balkon2.loc/?p=46', 1, 'nav_menu_item', '', 0),
+(47, 1, '2017-03-28 19:32:14', '2017-03-28 16:32:14', '', 'Наши работы', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b', '', '', '2017-03-28 19:32:24', '2017-03-28 16:32:24', '', 0, 'http://balkon2.loc/?page_id=47', 0, 'page', '', 0),
+(48, 1, '2017-03-28 19:32:14', '2017-03-28 16:32:14', '', 'Отзывы', '', 'inherit', 'closed', 'closed', '', '47-revision-v1', '', '', '2017-03-28 19:32:14', '2017-03-28 16:32:14', '', 47, 'http://balkon2.loc/2017/03/28/47-revision-v1/', 0, 'revision', '', 0),
+(49, 1, '2017-03-28 19:32:24', '2017-03-28 16:32:24', '', 'Наши работы', '', 'inherit', 'closed', 'closed', '', '47-revision-v1', '', '', '2017-03-28 19:32:24', '2017-03-28 16:32:24', '', 47, 'http://balkon2.loc/2017/03/28/47-revision-v1/', 0, 'revision', '', 0),
+(50, 1, '2017-03-28 19:32:50', '2017-03-28 16:32:50', '', 'Отзывы', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b-2', '', '', '2017-03-28 19:32:50', '2017-03-28 16:32:50', '', 0, 'http://balkon2.loc/?page_id=50', 0, 'page', '', 0),
+(51, 1, '2017-03-28 19:32:50', '2017-03-28 16:32:50', '', 'Отзывы', '', 'inherit', 'closed', 'closed', '', '50-revision-v1', '', '', '2017-03-28 19:32:50', '2017-03-28 16:32:50', '', 50, 'http://balkon2.loc/2017/03/28/50-revision-v1/', 0, 'revision', '', 0),
+(52, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', ' ', '', '', 'publish', 'closed', 'closed', '', '52', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=52', 6, 'nav_menu_item', '', 0),
+(53, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', ' ', '', '', 'publish', 'closed', 'closed', '', '53', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=53', 5, 'nav_menu_item', '', 0),
+(54, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', '', 'Утепление балконов', '', 'publish', 'closed', 'closed', '', '%d1%83%d1%82%d0%b5%d0%bf%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b1%d0%b0%d0%bb%d0%ba%d0%be%d0%bd%d0%be%d0%b2', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=54', 3, 'nav_menu_item', '', 0),
+(55, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', '', 'Отделка балконов', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%ba%d0%b0-%d0%b1%d0%b0%d0%bb%d0%ba%d0%be%d0%bd%d0%be%d0%b2', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=55', 2, 'nav_menu_item', '', 0),
+(56, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', ' ', '', '', 'publish', 'closed', 'closed', '', '56', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=56', 1, 'nav_menu_item', '', 0),
+(57, 1, '2017-03-28 19:34:13', '2017-03-28 16:34:13', ' ', '', '', 'publish', 'closed', 'closed', '', '57', '', '', '2017-03-28 19:34:50', '2017-03-28 16:34:50', '', 0, 'http://balkon2.loc/?p=57', 4, 'nav_menu_item', '', 0);
 
 -- --------------------------------------------------------
 
@@ -481,7 +546,8 @@ CREATE TABLE `wp_terms` (
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (1, 'Без рубрики', '%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8', 0),
-(2, 'Main menu', 'main-menu', 0);
+(2, 'Main menu', 'main-menu', 0),
+(3, 'Second menu', 'second-menu', 0);
 
 -- --------------------------------------------------------
 
@@ -505,7 +571,13 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (43, 2, 0),
 (44, 2, 0),
 (45, 2, 0),
-(46, 2, 0);
+(46, 2, 0),
+(52, 3, 0),
+(53, 3, 0),
+(54, 3, 0),
+(55, 3, 0),
+(56, 3, 0),
+(57, 3, 0);
 
 -- --------------------------------------------------------
 
@@ -528,7 +600,8 @@ CREATE TABLE `wp_term_taxonomy` (
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
 (1, 1, 'category', '', 0, 1),
-(2, 2, 'nav_menu', '', 0, 5);
+(2, 2, 'nav_menu', '', 0, 5),
+(3, 3, 'nav_menu', '', 0, 6);
 
 -- --------------------------------------------------------
 
@@ -565,7 +638,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (15, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
 (16, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
 (17, 1, 'metaboxhidden_nav-menus', 'a:5:{i:0;s:26:\"add-post-type-testimonials\";i:1;s:20:\"add-post-type-events\";i:2;s:22:\"add-post-type-articles\";i:3;s:19:\"add-post-type-works\";i:4;s:12:\"add-post_tag\";}'),
-(18, 1, 'nav_menu_recently_edited', '2');
+(18, 1, 'nav_menu_recently_edited', '3');
 
 -- --------------------------------------------------------
 
@@ -724,12 +797,12 @@ ALTER TABLE `wp_options`
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=161;
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`
 --
@@ -739,12 +812,12 @@ ALTER TABLE `wp_termmeta`
 -- AUTO_INCREMENT для таблицы `wp_terms`
 --
 ALTER TABLE `wp_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `wp_usermeta`
 --
