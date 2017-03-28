@@ -82,14 +82,26 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="dd-menu-bottom">
-						<ul>
-							<li><a href="#"> Остекленение балконов</a></li>
-							<li><a href="#"> Отделка балконов</a></li>
-							<li><a href="#"> Утепление балконов</a></li>
-							<li><a href="#"> Цены</a></li>
-							<li><a href="#"> Наши работы</a></li>
-							<li><a href="#"> Отзывы</a></li>
-						</ul>
+						<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'Second menu', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'menu', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="main-menu">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
 					</div>
 				</div>
 			</div>
