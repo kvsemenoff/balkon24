@@ -1,4 +1,5 @@
  <?php get_header(); ?>
+ <?php require_once('includes/header-top.php'); ?>
  <?php require_once('includes/select.php'); ?>
  <?php require_once('includes/our.php'); ?>
  <?php require_once('includes/we.php'); ?>
