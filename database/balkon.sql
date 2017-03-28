@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 28 2017 г., 18:43
+-- Время создания: Мар 28 2017 г., 19:23
 -- Версия сервера: 5.7.16-log
 -- Версия PHP: 5.6.29
 
@@ -215,7 +215,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (142, 'can_compress_scripts', '1', 'no'),
 (146, 'theme_mods_twentysixteen', 'a:1:{s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1490593928;s:4:\"data\";a:2:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}}}}', 'yes'),
 (147, 'current_theme', '', 'yes'),
-(148, 'theme_mods_balkon', 'a:2:{i:0;b:0;s:18:\"custom_css_post_id\";i:-1;}', 'yes'),
+(148, 'theme_mods_balkon', 'a:3:{i:0;b:0;s:18:\"custom_css_post_id\";i:-1;s:18:\"nav_menu_locations\";a:0:{}}', 'yes'),
 (149, 'theme_switched', '', 'yes'),
 (152, '_site_transient_timeout_theme_roots', '1490690931', 'no'),
 (153, '_site_transient_theme_roots', 'a:4:{s:6:\"balkon\";s:7:\"/themes\";s:13:\"twentyfifteen\";s:7:\"/themes\";s:14:\"twentyfourteen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
@@ -246,7 +246,10 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (172, '_transient_plugin_slugs', 'a:2:{i:0;s:19:\"akismet/akismet.php\";i:1;s:9:\"hello.php\";}', 'no'),
 (173, '_transient_timeout_dash_f69de0bbfe7eaa113146875f40c02000', '1490750127', 'no'),
 (174, '_transient_dash_f69de0bbfe7eaa113146875f40c02000', '<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2017/03/wordpress-4-7-3-security-and-maintenance-release/\'>WordPress 4.7.3 Security and Maintenance Release</a> <span class=\"rss-date\">06.03.2017</span><div class=\"rssSummary\">WordPress 4.7.3 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.7.2 and earlier are affected by six security issues: Cross-site scripting (XSS) via media file metadata.  Reported by Chris Andrè Dale, Yorick Koster, and Simon P. Briggs. Control characters can trick redirect [&hellip;]</div></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/uk-home-secretary-amber-rudd-links-wordpress-com-to-the-spread-of-terrorism\'>WPTavern: UK Home Secretary Amber Rudd Links WordPress.com to the Spread of Terrorism</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/wordcamp-miami-2017-will-livestream-all-sessions-this-weekend\'>WPTavern: WordCamp Miami 2017 Will Livestream All Sessions this Weekend</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/medium-aims-to-fix-broken-media-with-new-5-subscription-program\'>WPTavern: Medium Aims to Fix ‘Broken’ Media with New $5 Subscription Program</a></li></ul></div><div class=\"rss-widget\"><ul><li class=\"dashboard-news-plugin\"><span>Популярный плагин:</span> WooCommerce&nbsp;<a href=\"plugin-install.php?tab=plugin-information&amp;plugin=woocommerce&amp;_wpnonce=e90eff95d4&amp;TB_iframe=true&amp;width=600&amp;height=800\" class=\"thickbox open-plugin-details-modal\" aria-label=\"Установить WooCommerce\">(Установить)</a></li></ul></div>', 'no'),
-(176, 'fresh_site', '0', 'yes');
+(176, 'fresh_site', '0', 'yes'),
+(177, '_site_transient_timeout_browser_8bf7ba49ae7a874e29f7159f89c9e9dc', '1491322252', 'no'),
+(178, '_site_transient_browser_8bf7ba49ae7a874e29f7159f89c9e9dc', 'a:9:{s:8:\"platform\";s:7:\"Windows\";s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:12:\"56.0.2924.87\";s:10:\"update_url\";s:28:\"http://www.google.com/chrome\";s:7:\"img_src\";s:49:\"http://s.wordpress.org/images/browsers/chrome.png\";s:11:\"img_src_ssl\";s:48:\"https://wordpress.org/images/browsers/chrome.png\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;}', 'no'),
+(179, 'nav_menu_options', 'a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}', 'yes');
 
 -- --------------------------------------------------------
 
@@ -269,7 +272,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (1, 2, '_wp_page_template', 'default'),
 (2, 4, '_edit_last', '1'),
 (3, 4, '_edit_lock', '1490715346:1'),
-(4, 2, '_edit_lock', '1490706823:1'),
+(4, 2, '_edit_lock', '1490716413:1'),
 (5, 7, '_edit_last', '1'),
 (6, 7, '_edit_lock', '1490714831:1'),
 (7, 7, '_wp_page_template', 'template_glazing.php'),
@@ -284,10 +287,10 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (16, 13, '_edit_lock', '1490713860:1'),
 (17, 13, '_wp_page_template', 'template_decoration.php'),
 (18, 15, '_edit_last', '1'),
-(19, 15, '_edit_lock', '1490714154:1'),
+(19, 15, '_edit_lock', '1490716650:1'),
 (20, 15, '_wp_page_template', 'template_warm_glazing.php'),
 (21, 17, '_edit_last', '1'),
-(22, 17, '_edit_lock', '1490714337:1'),
+(22, 17, '_edit_lock', '1490716810:1'),
 (23, 17, '_wp_page_template', 'template_warm_floor.php'),
 (24, 19, '_edit_last', '1'),
 (25, 19, '_edit_lock', '1490714521:1'),
@@ -305,7 +308,62 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (37, 26, '_edit_lock', '1490715295:1'),
 (38, 19, '_wp_trash_meta_status', 'draft'),
 (39, 19, '_wp_trash_meta_time', '1490715411'),
-(40, 19, '_wp_desired_post_slug', '');
+(40, 19, '_wp_desired_post_slug', ''),
+(41, 30, '_edit_last', '1'),
+(42, 30, '_wp_page_template', 'default'),
+(43, 30, '_edit_lock', '1490717690:1'),
+(44, 32, '_edit_last', '1'),
+(45, 32, '_wp_page_template', 'default'),
+(46, 32, '_edit_lock', '1490717708:1'),
+(47, 34, '_edit_last', '1'),
+(48, 34, '_wp_page_template', 'default'),
+(49, 34, '_edit_lock', '1490717717:1'),
+(50, 36, '_edit_last', '1'),
+(51, 36, '_wp_page_template', 'default'),
+(52, 36, '_edit_lock', '1490717724:1'),
+(53, 38, '_edit_last', '1'),
+(54, 38, '_wp_page_template', 'default'),
+(55, 38, '_edit_lock', '1490717757:1'),
+(56, 42, '_menu_item_type', 'post_type'),
+(57, 42, '_menu_item_menu_item_parent', '0'),
+(58, 42, '_menu_item_object_id', '38'),
+(59, 42, '_menu_item_object', 'page'),
+(60, 42, '_menu_item_target', ''),
+(61, 42, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(62, 42, '_menu_item_xfn', ''),
+(63, 42, '_menu_item_url', ''),
+(65, 43, '_menu_item_type', 'post_type'),
+(66, 43, '_menu_item_menu_item_parent', '0'),
+(67, 43, '_menu_item_object_id', '36'),
+(68, 43, '_menu_item_object', 'page'),
+(69, 43, '_menu_item_target', ''),
+(70, 43, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(71, 43, '_menu_item_xfn', ''),
+(72, 43, '_menu_item_url', ''),
+(74, 44, '_menu_item_type', 'post_type'),
+(75, 44, '_menu_item_menu_item_parent', '0'),
+(76, 44, '_menu_item_object_id', '34'),
+(77, 44, '_menu_item_object', 'page'),
+(78, 44, '_menu_item_target', ''),
+(79, 44, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(80, 44, '_menu_item_xfn', ''),
+(81, 44, '_menu_item_url', ''),
+(83, 45, '_menu_item_type', 'post_type'),
+(84, 45, '_menu_item_menu_item_parent', '0'),
+(85, 45, '_menu_item_object_id', '32'),
+(86, 45, '_menu_item_object', 'page'),
+(87, 45, '_menu_item_target', ''),
+(88, 45, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(89, 45, '_menu_item_xfn', ''),
+(90, 45, '_menu_item_url', ''),
+(92, 46, '_menu_item_type', 'post_type'),
+(93, 46, '_menu_item_menu_item_parent', '0'),
+(94, 46, '_menu_item_object_id', '30'),
+(95, 46, '_menu_item_object', 'page'),
+(96, 46, '_menu_item_target', ''),
+(97, 46, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(98, 46, '_menu_item_xfn', ''),
+(99, 46, '_menu_item_url', '');
 
 -- --------------------------------------------------------
 
@@ -358,9 +416,9 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (12, 1, '2017-03-28 18:02:57', '2017-03-28 15:02:57', '', 'Остекление с выносом', '', 'inherit', 'closed', 'closed', '', '11-revision-v1', '', '', '2017-03-28 18:02:57', '2017-03-28 15:02:57', '', 11, 'http://balkon2.loc/2017/03/28/11-revision-v1/', 0, 'revision', '', 0),
 (13, 1, '2017-03-28 18:10:45', '2017-03-28 15:10:45', '', 'Отделка балкона', '', 'publish', 'closed', 'closed', '', '%d0%be%d1%82%d0%b4%d0%b5%d0%bb%d0%ba%d0%b0-%d0%b1%d0%b0%d0%bb%d0%ba%d0%be%d0%bd%d0%b0', '', '', '2017-03-28 18:10:45', '2017-03-28 15:10:45', '', 0, 'http://balkon2.loc/?page_id=13', 0, 'page', '', 0),
 (14, 1, '2017-03-28 18:10:45', '2017-03-28 15:10:45', '', 'Отделка балкона', '', 'inherit', 'closed', 'closed', '', '13-revision-v1', '', '', '2017-03-28 18:10:45', '2017-03-28 15:10:45', '', 13, 'http://balkon2.loc/2017/03/28/13-revision-v1/', 0, 'revision', '', 0),
-(15, 1, '2017-03-28 18:15:00', '2017-03-28 15:15:00', '', 'Тёплое остекление', '', 'publish', 'closed', 'closed', '', '%d1%82%d1%91%d0%bf%d0%bb%d0%be%d0%b5-%d0%be%d1%81%d1%82%d0%b5%d0%ba%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5', '', '', '2017-03-28 18:15:05', '2017-03-28 15:15:05', '', 0, 'http://balkon2.loc/?page_id=15', 0, 'page', '', 0),
+(15, 1, '2017-03-28 18:15:00', '2017-03-28 15:15:00', '', 'Тёплое остекление', '', 'publish', 'closed', 'closed', '', '%d1%82%d1%91%d0%bf%d0%bb%d0%be%d0%b5-%d0%be%d1%81%d1%82%d0%b5%d0%ba%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5', '', '', '2017-03-28 18:59:47', '2017-03-28 15:59:47', '', 0, 'http://balkon2.loc/?page_id=15', 0, 'page', '', 0),
 (16, 1, '2017-03-28 18:15:00', '2017-03-28 15:15:00', '', 'Тёплое остекление', '', 'inherit', 'closed', 'closed', '', '15-revision-v1', '', '', '2017-03-28 18:15:00', '2017-03-28 15:15:00', '', 15, 'http://balkon2.loc/2017/03/28/15-revision-v1/', 0, 'revision', '', 0),
-(17, 1, '2017-03-28 18:18:41', '2017-03-28 15:18:41', '', 'Теплый пол', '', 'publish', 'closed', 'closed', '', '%d1%82%d0%b5%d0%bf%d0%bb%d1%8b%d0%b9-%d0%bf%d0%be%d0%bb', '', '', '2017-03-28 18:21:19', '2017-03-28 15:21:19', '', 0, 'http://balkon2.loc/?page_id=17', 0, 'page', '', 0),
+(17, 1, '2017-03-28 18:18:41', '2017-03-28 15:18:41', '', 'Теплый пол', '', 'publish', 'closed', 'closed', '', '%d1%82%d0%b5%d0%bf%d0%bb%d1%8b%d0%b9-%d0%bf%d0%be%d0%bb', '', '', '2017-03-28 19:01:25', '2017-03-28 16:01:25', '', 0, 'http://balkon2.loc/?page_id=17', 0, 'page', '', 0),
 (18, 1, '2017-03-28 18:18:41', '2017-03-28 15:18:41', '', 'Теплый пол', '', 'inherit', 'closed', 'closed', '', '17-revision-v1', '', '', '2017-03-28 18:18:41', '2017-03-28 15:18:41', '', 17, 'http://balkon2.loc/2017/03/28/17-revision-v1/', 0, 'revision', '', 0),
 (19, 1, '2017-03-28 18:22:01', '2017-03-28 15:22:01', '', 'Утепление балкона', '', 'trash', 'closed', 'closed', '', '__trashed', '', '', '2017-03-28 18:36:51', '2017-03-28 15:36:51', '', 0, 'http://balkon2.loc/?page_id=19', 0, 'page', '', 0),
 (20, 1, '2017-03-28 18:26:02', '2017-03-28 15:26:02', '', 'Утепление балкона', '', 'publish', 'closed', 'closed', '', '%d1%83%d1%82%d0%b5%d0%bf%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b1%d0%b0%d0%bb%d0%ba%d0%be%d0%bd%d0%b0', '', '', '2017-03-28 18:26:07', '2017-03-28 15:26:07', '', 0, 'http://balkon2.loc/?page_id=20', 0, 'page', '', 0),
@@ -372,7 +430,24 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (26, 1, '2017-03-28 18:29:02', '2017-03-28 15:29:02', '', 'Цены', '', 'publish', 'closed', 'closed', '', '%d1%86%d0%b5%d0%bd%d1%8b', '', '', '2017-03-28 18:37:18', '2017-03-28 15:37:18', '', 0, 'http://balkon2.loc/?page_id=26', 0, 'page', '', 0),
 (27, 1, '2017-03-28 18:29:02', '2017-03-28 15:29:02', '', 'Цены', '', 'inherit', 'closed', 'closed', '', '26-revision-v1', '', '', '2017-03-28 18:29:02', '2017-03-28 15:29:02', '', 26, 'http://balkon2.loc/2017/03/28/26-revision-v1/', 0, 'revision', '', 0),
 (28, 1, '2017-03-28 18:29:56', '2017-03-28 15:29:56', '', 'Цена остекления балконов', '', 'inherit', 'closed', 'closed', '', '22-revision-v1', '', '', '2017-03-28 18:29:56', '2017-03-28 15:29:56', '', 22, 'http://balkon2.loc/2017/03/28/22-revision-v1/', 0, 'revision', '', 0),
-(29, 1, '2017-03-28 18:36:51', '2017-03-28 15:36:51', '', 'Утепление балкона', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2017-03-28 18:36:51', '2017-03-28 15:36:51', '', 19, 'http://balkon2.loc/2017/03/28/19-revision-v1/', 0, 'revision', '', 0);
+(29, 1, '2017-03-28 18:36:51', '2017-03-28 15:36:51', '', 'Утепление балкона', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2017-03-28 18:36:51', '2017-03-28 15:36:51', '', 19, 'http://balkon2.loc/2017/03/28/19-revision-v1/', 0, 'revision', '', 0),
+(30, 1, '2017-03-28 19:17:13', '2017-03-28 16:17:13', '', 'О компании', '', 'publish', 'closed', 'closed', '', '%d0%be-%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8', '', '', '2017-03-28 19:17:13', '2017-03-28 16:17:13', '', 0, 'http://balkon2.loc/?page_id=30', 0, 'page', '', 0),
+(31, 1, '2017-03-28 19:17:13', '2017-03-28 16:17:13', '', 'О компании', '', 'inherit', 'closed', 'closed', '', '30-revision-v1', '', '', '2017-03-28 19:17:13', '2017-03-28 16:17:13', '', 30, 'http://balkon2.loc/2017/03/28/30-revision-v1/', 0, 'revision', '', 0),
+(32, 1, '2017-03-28 19:17:21', '2017-03-28 16:17:21', '', 'Гарантия', '', 'publish', 'closed', 'closed', '', '%d0%b3%d0%b0%d1%80%d0%b0%d0%bd%d1%82%d0%b8%d1%8f', '', '', '2017-03-28 19:17:21', '2017-03-28 16:17:21', '', 0, 'http://balkon2.loc/?page_id=32', 0, 'page', '', 0),
+(33, 1, '2017-03-28 19:17:21', '2017-03-28 16:17:21', '', 'Гарантия', '', 'inherit', 'closed', 'closed', '', '32-revision-v1', '', '', '2017-03-28 19:17:21', '2017-03-28 16:17:21', '', 32, 'http://balkon2.loc/2017/03/28/32-revision-v1/', 0, 'revision', '', 0),
+(34, 1, '2017-03-28 19:17:37', '2017-03-28 16:17:37', '', 'Статьи', '', 'publish', 'closed', 'closed', '', '%d1%81%d1%82%d0%b0%d1%82%d1%8c%d0%b8', '', '', '2017-03-28 19:17:37', '2017-03-28 16:17:37', '', 0, 'http://balkon2.loc/?page_id=34', 0, 'page', '', 0),
+(35, 1, '2017-03-28 19:17:37', '2017-03-28 16:17:37', '', 'Статьи', '', 'inherit', 'closed', 'closed', '', '34-revision-v1', '', '', '2017-03-28 19:17:37', '2017-03-28 16:17:37', '', 34, 'http://balkon2.loc/2017/03/28/34-revision-v1/', 0, 'revision', '', 0),
+(36, 1, '2017-03-28 19:17:46', '2017-03-28 16:17:46', '', 'Акции', '', 'publish', 'closed', 'closed', '', '%d0%b0%d0%ba%d1%86%d0%b8%d0%b8', '', '', '2017-03-28 19:17:46', '2017-03-28 16:17:46', '', 0, 'http://balkon2.loc/?page_id=36', 0, 'page', '', 0),
+(37, 1, '2017-03-28 19:17:46', '2017-03-28 16:17:46', '', 'Акции', '', 'inherit', 'closed', 'closed', '', '36-revision-v1', '', '', '2017-03-28 19:17:46', '2017-03-28 16:17:46', '', 36, 'http://balkon2.loc/2017/03/28/36-revision-v1/', 0, 'revision', '', 0),
+(38, 1, '2017-03-28 19:17:53', '2017-03-28 16:17:53', '', 'Контакты', '', 'publish', 'closed', 'closed', '', '%d0%ba%d0%be%d0%bd%d1%8c%d0%b0%d0%ba%d1%8c%d1%8b', '', '', '2017-03-28 19:18:14', '2017-03-28 16:18:14', '', 0, 'http://balkon2.loc/?page_id=38', 0, 'page', '', 0),
+(39, 1, '2017-03-28 19:17:53', '2017-03-28 16:17:53', '', 'Коньакьы', '', 'inherit', 'closed', 'closed', '', '38-revision-v1', '', '', '2017-03-28 19:17:53', '2017-03-28 16:17:53', '', 38, 'http://balkon2.loc/2017/03/28/38-revision-v1/', 0, 'revision', '', 0),
+(40, 1, '2017-03-28 19:18:02', '2017-03-28 16:18:02', '', 'Коньакты', '', 'inherit', 'closed', 'closed', '', '38-revision-v1', '', '', '2017-03-28 19:18:02', '2017-03-28 16:18:02', '', 38, 'http://balkon2.loc/2017/03/28/38-revision-v1/', 0, 'revision', '', 0),
+(41, 1, '2017-03-28 19:18:14', '2017-03-28 16:18:14', '', 'Контакты', '', 'inherit', 'closed', 'closed', '', '38-revision-v1', '', '', '2017-03-28 19:18:14', '2017-03-28 16:18:14', '', 38, 'http://balkon2.loc/2017/03/28/38-revision-v1/', 0, 'revision', '', 0),
+(42, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '42', '', '', '2017-03-28 19:22:00', '2017-03-28 16:22:00', '', 0, 'http://balkon2.loc/?p=42', 1, 'nav_menu_item', '', 0),
+(43, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '43', '', '', '2017-03-28 19:22:00', '2017-03-28 16:22:00', '', 0, 'http://balkon2.loc/?p=43', 2, 'nav_menu_item', '', 0),
+(44, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '44', '', '', '2017-03-28 19:22:00', '2017-03-28 16:22:00', '', 0, 'http://balkon2.loc/?p=44', 3, 'nav_menu_item', '', 0),
+(45, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '45', '', '', '2017-03-28 19:22:00', '2017-03-28 16:22:00', '', 0, 'http://balkon2.loc/?p=45', 4, 'nav_menu_item', '', 0),
+(46, 1, '2017-03-28 19:22:00', '2017-03-28 16:22:00', ' ', '', '', 'publish', 'closed', 'closed', '', '46', '', '', '2017-03-28 19:22:00', '2017-03-28 16:22:00', '', 0, 'http://balkon2.loc/?p=46', 5, 'nav_menu_item', '', 0);
 
 -- --------------------------------------------------------
 
@@ -405,7 +480,8 @@ CREATE TABLE `wp_terms` (
 --
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
-(1, 'Без рубрики', '%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8', 0);
+(1, 'Без рубрики', '%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8', 0),
+(2, 'Main menu', 'main-menu', 0);
 
 -- --------------------------------------------------------
 
@@ -424,7 +500,12 @@ CREATE TABLE `wp_term_relationships` (
 --
 
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES
-(1, 1, 0);
+(1, 1, 0),
+(42, 2, 0),
+(43, 2, 0),
+(44, 2, 0),
+(45, 2, 0),
+(46, 2, 0);
 
 -- --------------------------------------------------------
 
@@ -446,7 +527,8 @@ CREATE TABLE `wp_term_taxonomy` (
 --
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
-(1, 1, 'category', '', 0, 1);
+(1, 1, 'category', '', 0, 1),
+(2, 2, 'nav_menu', '', 0, 5);
 
 -- --------------------------------------------------------
 
@@ -479,8 +561,11 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (11, 1, 'wp_user_level', '10'),
 (12, 1, 'dismissed_wp_pointers', ''),
 (13, 1, 'show_welcome_panel', '1'),
-(14, 1, 'session_tokens', 'a:2:{s:64:\"041b7494e2b00c1aa03cbcbcafe7d122eb49bd761cb1c5ba775d095a213f2d8c\";a:4:{s:10:\"expiration\";i:1490764825;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:109:\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36\";s:5:\"login\";i:1490592025;}s:64:\"c1996332ab1e62294a1d0bab1bea3104fa12c93cdba5d92acef740ea88cad501\";a:4:{s:10:\"expiration\";i:1490879717;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:141:\"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.1785 Yowser/2.5 Safari/537.36\";s:5:\"login\";i:1490706917;}}'),
-(15, 1, 'wp_dashboard_quick_press_last_post_id', '3');
+(14, 1, 'session_tokens', 'a:3:{s:64:\"041b7494e2b00c1aa03cbcbcafe7d122eb49bd761cb1c5ba775d095a213f2d8c\";a:4:{s:10:\"expiration\";i:1490764825;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:109:\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36\";s:5:\"login\";i:1490592025;}s:64:\"c1996332ab1e62294a1d0bab1bea3104fa12c93cdba5d92acef740ea88cad501\";a:4:{s:10:\"expiration\";i:1490879717;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:141:\"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.0.1785 Yowser/2.5 Safari/537.36\";s:5:\"login\";i:1490706917;}s:64:\"9d8df23087152fcf5f1d65834e86b56b63fe976fcd8a762f750762dcb28dc30c\";a:4:{s:10:\"expiration\";i:1490889348;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:140:\"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 YaBrowser/17.3.1.840 Yowser/2.5 Safari/537.36\";s:5:\"login\";i:1490716548;}}'),
+(15, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
+(16, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
+(17, 1, 'metaboxhidden_nav-menus', 'a:5:{i:0;s:26:\"add-post-type-testimonials\";i:1;s:20:\"add-post-type-events\";i:2;s:22:\"add-post-type-articles\";i:3;s:19:\"add-post-type-works\";i:4;s:12:\"add-post_tag\";}'),
+(18, 1, 'nav_menu_recently_edited', '2');
 
 -- --------------------------------------------------------
 
@@ -634,17 +719,17 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT для таблицы `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=177;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=180;
 --
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`
 --
@@ -654,17 +739,17 @@ ALTER TABLE `wp_termmeta`
 -- AUTO_INCREMENT для таблицы `wp_terms`
 --
 ALTER TABLE `wp_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT для таблицы `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT для таблицы `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 --
 -- AUTO_INCREMENT для таблицы `wp_users`
 --

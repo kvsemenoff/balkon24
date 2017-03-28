@@ -45,13 +45,26 @@
 				</div>
 				<div class="col-md-6">
 					<div class="dd-menu-top_h">
-						<ul>
-							<li><a href="#">О компании</a></li>
-							<li><a href="#">Гарантия</a></li>
-							<li><a href="#">Статьи</a></li>
-							<li><a href="#">Акции</a></li>
-							<li><a href="#">Контакты</a></li>
-						</ul>
+						<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'Main menu', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'menu', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="main-menu">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
 					</div>
 				</div>
 				<div class="col-md-3">
