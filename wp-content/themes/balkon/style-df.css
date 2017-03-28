@@ -1,0 +1,670 @@
+.clear {
+  clear: both; }
+
+/*===========decoration======*/
+.bgcolor {
+  background-color: #edeae5;
+  position: relative; }
+  .bgcolor:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-image: url("../img/bottomimg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+
+.dfdectopcap {
+  text-align: center;
+  margin: 30px 0; }
+
+.dfdecorblock {
+  text-align: center; }
+
+.dfdecorbox {
+  max-width: 530px;
+  width: 100%;
+  display: inline-block;
+  margin: 0 0px 39px 0; }
+
+.dftopcaption {
+  text-align: center; }
+
+.dfcapdecor {
+  font-family: "pfdindisplaypro-med";
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-color: #c9bba6;
+  display: block;
+  border-radius: 5px;
+  padding: 10px 12px; }
+
+.dfcapprice {
+  line-height: 16px;
+  color: #2f2f2f;
+  font-size: 15px;
+  font-family: "pfdindisplaypro-reg";
+  font-weight: 400;
+  display: inline-block;
+  margin: 5px 0 10px 0;
+  padding-top: 7px; }
+  .dfcapprice strong {
+    color: #fe971f;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "pfdindisplaypro-bold"; }
+
+.dfdecorhoverbox {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  width: 100%;
+  margin-top: -2px;
+  z-index: 10; }
+
+.dfdecorimg img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+.dfhovbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  text-align: left;
+  padding: 65px 25px 0 30px;
+  border-radius: 5px;
+  background-color: rgba(20, 0, 0, 0.5);
+  -ms-transition: all 0.2s linear 0s;
+  -o-transition: all 0.2s linear 0s;
+  -webkit-transition: all 0.2s linear 0s;
+  -moz-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s; }
+  .dfhovbox p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: "pfdindisplaypro-reg";
+    margin-bottom: 27px;
+    position: relative;
+    top: -200px;
+    opacity: 0;
+    -o-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s; }
+  .dfhovbox a {
+    position: relative;
+    bottom: -200px;
+    opacity: 0;
+    display: inline-block;
+    -o-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s; }
+
+.dflinkdecor {
+  color: white;
+  font-family: "pfdindisplaypro-med";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: rgba(111, 89, 67, 0.46);
+  border: 2px solid #ffba26;
+  padding: 10px 27px;
+  border-radius: 35px; }
+  .dflinkdecor:hover {
+    background-color: rgba(111, 89, 67, 0.9); }
+
+.dftxtbottom {
+  font-family: "pfdindisplaypro-reg";
+  color: #2f2f2f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px; }
+
+/*===============carousel3=============*/
+.dfboxcarousel {
+  text-align: center;
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto; }
+
+#margin0 {
+  margin: 55px 0 0 0;
+  position: relative; }
+  #margin0:after {
+    content: "";
+    position: absolute;
+    top: -73px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65px;
+    height: 50px;
+    background-image: url("../img/topimg.png");
+    background-repeat: no-repeat;
+    background-position: top center; }
+
+.dfcarouselcap {
+  color: white;
+  font-family: "pfdindisplaypro-med";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #c9bba6;
+  padding: 10px 22px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  margin-top: 33px;
+  -o-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg); }
+  .dfcarouselcap span {
+    display: inline-block;
+    -o-transform: skewX(10deg);
+    -moz-transform: skewX(10deg);
+    -webkit-transform: skewX(10deg);
+    transform: skewX(10deg); }
+
+.dfcarimg {
+  width: 240px;
+  height: 185px;
+  border-radius: 5px;
+  margin: 0 auto; }
+  .dfcarimg img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; }
+
+.dfnav1 .df-left, .dfnav2 .df-left, .dfnav3 .df-left {
+  background-image: url("../img/dfleft.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  position: absolute;
+  top: 38%;
+  left: 0px;
+  width: 45px;
+  height: 45px; }
+
+.dfnav1 .df-right, .dfnav2 .df-right, .dfnav3 .df-right {
+  background-image: url("../img/dfright.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  position: absolute;
+  top: 38%;
+  right: 0px;
+  width: 45px;
+  height: 45px; }
+
+.dfnav3 {
+  margin-bottom: 45px; }
+
+/*===================slidertabs=============*/
+.dfbgcolor {
+  background-color: #e2ddd5; }
+
+.dfbgwhite {
+  background-color: #fff; }
+
+.dfsltop {
+  max-width: 990px;
+  margin: 0 auto;
+  margin-bottom: 20px; }
+
+.dfslider, .dfslider2 {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto; }
+  .dfslider .df-left, .dfslider2 .df-left {
+    background-image: url("../img/dfleft.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: absolute;
+    top: 38%;
+    left: 0px;
+    width: 45px;
+    height: 45px; }
+  .dfslider .df-right, .dfslider2 .df-right {
+    background-image: url("../img/dfright.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: absolute;
+    top: 38%;
+    right: 0px;
+    width: 45px;
+    height: 45px; }
+
+.dfimgtext {
+  max-width: 997px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; }
+
+.dfimgsl {
+  width: 100%;
+  height: 408px;
+  position: relative;
+  overflow: hidden; }
+  .dfimgsl img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: unset !important; }
+
+.dftextleft {
+  max-width: 255px;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding: 35px 60px 20px 25px;
+  background-image: url("../img/bgblock.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .dftextleft h4 {
+    font-size: 33px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "pfdindisplaypro-med";
+    text-transform: uppercase; }
+    .dftextleft h4 span {
+      font-size: 19px;
+      color: #ffba26;
+      display: inline-block; }
+  .dftextleft p {
+    font-size: 16px;
+    color: #ece2d3;
+    line-height: 18px;
+    font-family: "pfdindisplaypro-reg";
+    margin: 30px 0 17px 0; }
+
+.dfslprice {
+  line-height: 16px;
+  color: #ece2d3;
+  font-size: 15px;
+  font-family: "pfdindisplaypro-reg";
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 17px;
+  padding-top: 7px; }
+  .dfslprice strong {
+    color: #fe971f;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "pfdindisplaypro-bold"; }
+
+.dfsllink {
+  display: inline-block;
+  font-family: "pfdindisplaypro-med";
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 18px;
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  border-radius: 35px; }
+  .dfsllink:hover {
+    background-color: rgba(201, 187, 166, 0.7); }
+
+.dfnavtab, .dfnavtab2 {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px; }
+  .dfnavtab ul li, .dfnavtab2 ul li {
+    display: block;
+    margin-bottom: 10px; }
+
+.dfnavlink, .dfnavlink2 {
+  display: inline-block;
+  font-family: "pfdindisplaypro-reg";
+  font-size: 16px;
+  color: #2f2f2f;
+  line-height: 18px;
+  padding: 10px 11px;
+  border-radius: 5px;
+  position: relative; }
+  .dfnavlink b, .dfnavlink2 b {
+    border-bottom: 1px dashed #2f2f2f; }
+  .dfnavlink:hover, .dfnavlink2:hover {
+    background-color: #c8c3bc;
+    color: #fff; }
+    .dfnavlink:hover b, .dfnavlink2:hover b {
+      border-bottom-color: transparent; }
+  .dfnavlink:hover:after, .dfnavlink2:hover:after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #c8c3bc; }
+
+.dfactivelink {
+  background-color: #c8c3bc;
+  color: #fff;
+  position: relative; }
+  .dfactivelink b {
+    border-bottom-color: transparent; }
+  .dfactivelink:after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #c8c3bc; }
+
+.dflinksliderbot {
+  text-align: center;
+  padding: 24px 0 20px 0; }
+  .dflinksliderbot a {
+    display: inline-block;
+    color: white;
+    font-family: "pfdindisplaypro-med";
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    background-image: -webkit-linear-gradient(bottom, #fd670c 0%, #feb52b 100%);
+    background-image: linear-gradient(to top, #fd670c 0%, #feb52b 100%);
+    box-shadow: 1.5px 2.6px 3px rgba(0, 0, 0, 0.2);
+    padding: 15px 25px;
+    border-radius: 25px; }
+    .dflinksliderbot a:hover {
+      background-image: -webkit-linear-gradient(bottom, #ffba26 0%, #ffba26 100%);
+      background-image: linear-gradient(to top, #ffba26 0%, #ffba26 100%); }
+
+.dfslider, .dfslider2 {
+  display: none; }
+
+/*====balkon===============*/
+.dfbalkon .dfnavlink:hover, .dfbalkon .dfnavlink2:hover, .dfbalkon2 .dfnavlink:hover, .dfbalkon2 .dfnavlink2:hover {
+  background-color: #c9bba6; }
+.dfbalkon .dfnavlink:hover:after, .dfbalkon .dfnavlink2:hover:after, .dfbalkon2 .dfnavlink:hover:after, .dfbalkon2 .dfnavlink2:hover:after {
+  border-bottom: 10px solid #c9bba6; }
+.dfbalkon .dfactivelink, .dfbalkon2 .dfactivelink {
+  background-color: #c9bba6; }
+  .dfbalkon .dfactivelink b, .dfbalkon2 .dfactivelink b {
+    border-bottom-color: transparent; }
+  .dfbalkon .dfactivelink:after, .dfbalkon2 .dfactivelink:after {
+    border-bottom: 10px solid #c9bba6; }
+
+/*================warming=================*/
+.breadbgdf {
+  background-color: #f5f5f5; }
+
+.dfpadding {
+  padding: 32px 0 0px 0;
+  background-color: #f5f5f5;
+  position: relative; }
+  .dfpadding:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-image: url("../img/bottomimg2.png");
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+
+.dfwarmblock {
+  text-align: center; }
+
+.dfwarmbox {
+  max-width: 300px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 20px; }
+
+.dfwarmbox:last-child {
+  margin-right: 0; }
+
+.dfwarmimmg {
+  max-width: 270px;
+  margin: 0 auto; }
+
+.dfwarmcap {
+  color: white;
+  font-family: "pfdindisplaypro-med";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #2973aa;
+  padding: 10px 19px;
+  border-radius: 5px;
+  margin-bottom: 31px;
+  margin-top: 5px;
+  -o-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  position: relative; }
+  .dfwarmcap:after {
+    content: "";
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    width: 42px;
+    height: 22px;
+    background-image: url("../img/textbottomimg.png");
+    background-repeat: no-repeat;
+    background-position: left bottom; }
+  .dfwarmcap span {
+    display: inline-block;
+    -o-transform: skewX(10deg);
+    -moz-transform: skewX(10deg);
+    -webkit-transform: skewX(10deg);
+    transform: skewX(10deg); }
+
+.dfwarmprice {
+  font-family: "pfdindisplaypro-reg";
+  line-height: 18px;
+  color: #2f2f2f;
+  font-size: 15px;
+  font-weight: 400;
+  display: block;
+  text-align: center; }
+  .dfwarmprice strong {
+    font-family: "pfdindisplaypro-bold";
+    color: #fe971f;
+    font-size: 35px;
+    font-weight: 700; }
+
+.dfwarmtxtbot {
+  color: #2f2f2f;
+  font-family: "pfdindisplaypro-reg";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  background-image: url("../img/bgparagraf.png");
+  background-repeat: no-repeat;
+  background-position: left 1px top 4px;
+  padding-left: 20px;
+  margin-top: 13px; }
+
+.dfbuttonwarm {
+  color: white;
+  display: inline-block;
+  font-family: "pfdindisplaypro-reg";
+  font-size: 18px;
+  font-weight: 400;
+  background-image: -webkit-linear-gradient(bottom, #fd670c 0%, #feb52b 100%);
+  background-image: linear-gradient(to top, #fd670c 0%, #feb52b 100%);
+  box-shadow: 1.5px 2.6px 3px rgba(0, 0, 0, 0.2);
+  padding: 11px 25px;
+  border-radius: 25px;
+  margin-top: 10px; }
+  .dfbuttonwarm:hover {
+    background-image: -webkit-linear-gradient(bottom, #ffba26 0%, #ffba26 100%);
+    background-image: linear-gradient(to top, #ffba26 0%, #ffba26 100%); }
+
+.dfwarmpd {
+  padding: 43px 0 0 0 !important; }
+
+/*section bg 2*/
+.dbbg2 {
+  background: url(../img/db-zamer2.png) no-repeat top center !important;
+  padding: 25px 0 0px 0;
+  position: relative; }
+
+.breadbgdfdecor {
+  background-color: #edeae5; }
+
+@media only screen and (min-width: 992px) {
+  .dfnav1 .df-left, .dfnav2 .df-left, .dfnav3 .df-left {
+    left: -30px; }
+
+  .dfnav1 .df-right, .dfnav2 .df-right, .dfnav3 .df-right {
+    right: -30px; }
+
+  /*slidertabs*/
+  .dfslider .df-left, .dfslider2 .df-left {
+    left: 25px; }
+  .dfslider .df-right, .dfslider2 .df-right {
+    right: 25px; }
+
+  .dfnavtab, .dfnavtab2 {
+    text-align: left; }
+    .dfnavtab ul li, .dfnavtab2 ul li {
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 0px; }
+      .dfnavtab ul li:last-child, .dfnavtab2 ul li:last-child {
+        margin-right: 0; }
+
+  .dflinksliderbot {
+    padding: 24px 0 40px 0; }
+
+  /*section bg 2*/
+  .dbbg2 {
+    background: url(../img/db-zamer2.png) no-repeat top center !important;
+    padding: 85px 0 60px 0;
+    position: relative;
+    margin-bottom: -40px; }
+    .dbbg2:after {
+      content: '';
+      position: absolute;
+      top: -17.5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 73px;
+      height: 42px;
+      background-image: url("../img/topimg2.png");
+      background-repeat: no-repeat;
+      background-position: bottom center; }
+
+  /*================warming=================*/
+  .dfwarmblock {
+    text-align: left;
+    padding-left: 24px; }
+
+  .dfwarmbox {
+    margin-right: 93px;
+    margin-bottom: 0; } }
+@media only screen and (min-width: 1200px) {
+  .dfdectopcap {
+    margin: 50px 0; }
+
+  .dfdecorblock {
+    text-align: left;
+    padding-left: 20px; }
+
+  .dfdecorbox {
+    margin: 0 35px 39px 0; }
+
+  .mr0 {
+    margin-right: 0; }
+
+  .dftopcaption {
+    text-align: left; }
+
+  .dfcapdecor {
+    border-radius: 5px 5px 0 0;
+    padding: 10px 12px;
+    display: inline-block;
+    position: relative; }
+    .dfcapdecor:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -20px;
+      width: 20px;
+      height: 40px;
+      border-radius: 0 5px 0 0;
+      background-color: #c9bba6;
+      -ms-transform: skew(15deg, 0deg);
+      -webkit-transform: skew(15deg, 0deg);
+      transform: skew(15deg, 0deg) translateX(-50%); }
+
+  .dfcapprice {
+    float: right;
+    margin: 0; }
+
+  .dftxtbottom {
+    margin-bottom: 50px;
+    padding: 0 45px; }
+
+  .dfdecorhoverbox:hover .dfhovbox {
+    opacity: 1; }
+    .dfdecorhoverbox:hover .dfhovbox p {
+      top: 0px;
+      opacity: 1; }
+    .dfdecorhoverbox:hover .dfhovbox a {
+      bottom: 0px;
+      opacity: 1; }
+
+  .dbbg2 {
+    padding: 85px 0 60px 0;
+    margin-bottom: -18px; }
+
+  /*==========slidertab*/
+  .dfcapsl {
+    margin: 50px 0 35px 0; }
+
+  .dfsltop {
+    margin-bottom: 35px; }
+
+  .dfnavtab ul li, .dfnavtab2 ul li {
+    margin-right: 14px; }
+
+  .dftextleft p {
+    margin: 38px 0 27px 0; } }
+
+/*# sourceMappingURL=style-df.css.map */
