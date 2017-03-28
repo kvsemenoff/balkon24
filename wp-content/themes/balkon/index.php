@@ -1,9 +1,9 @@
  <?php get_header(); ?>
- <?php require_once('select.php'); ?>
- <?php require_once('our.php'); ?>
- <?php require_once('we.php'); ?>
- <?php require_once('other.php'); ?>
- <?php require_once('balkon.php'); ?>
- <?php require_once('zamer.php'); ?>
- <?php require_once('kachestvo.php'); ?>
+ <?php require_once('includes/select.php'); ?>
+ <?php require_once('includes/our.php'); ?>
+ <?php require_once('includes/we.php'); ?>
+ <?php require_once('includes/other.php'); ?>
+ <?php require_once('includes/balkon.php'); ?>
+ <?php require_once('includes/zamer.php'); ?>
+ <?php require_once('includes/kachestvo.php'); ?>
  <?php get_footer(); ?>
