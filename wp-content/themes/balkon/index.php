@@ -5,5 +5,5 @@
  <?php require_once('includes/other.php'); ?>
  <?php require_once('includes/balkon.php'); ?>
  <?php require_once('includes/zamer.php'); ?>
- <?php require_once('includes/kachestvo.php'); ?>
- <?php get_footer(); ?>
+ <?php require_once('includes/kachestvo.php'); ?> 
+ <?php get_footer(); ?> 
