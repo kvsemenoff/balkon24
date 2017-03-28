@@ -15,7 +15,7 @@ Template Name: Тёплое остекление
 					<h1>теплое остекление</h1>
 				</div>
 				<div class="cold-pic">
-					<img src="img/cold-pic-1.png" alt="" class="di-cold-pic-1">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/cold-pic-1.png" alt="" class="di-cold-pic-1">
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -57,7 +57,7 @@ Template Name: Тёплое остекление
 			<div class="col-md-3">
 				<div class="cold-block1">
 					<div class="cold-wrap-img">	
-						<img src="img/di-warm-snowman.png" alt="" class="di-cold-pic-1">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/di-warm-snowman.png" alt="" class="di-cold-pic-1">
 					</div>
 					<span>Низкий вес</span>
 					<p>	Благодаря низкому весу можно остеклять балкон в любом техническом состоянии без какой-либо опасности.</p>
@@ -66,7 +66,7 @@ Template Name: Тёплое остекление
 			<div class="col-md-3">
 				<div class="cold-block2 warm-block2">
 					<div class="cold-wrap-img">
-						<img src="img/di-warm-sp.png" width="100%" height="auto" alt="" class="di-cold-pic-1">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/di-warm-sp.png" width="100%" height="auto" alt="" class="di-cold-pic-1">
 					</div>
 					<span>Раздвижные створки</span>
 					<p>	Раздвижные створки позволяют значительно экномить место при открывании окон. Количество створок не ограничено, что делает удобным открытие любой части балкона.</p>
@@ -75,7 +75,7 @@ Template Name: Тёплое остекление
 			<div class="col-md-3">
 				<div class="cold-block3">
 					<div class="cold-wrap-img">
-						<img src="img/di-warm-paint.png" alt="" class="di-cold-pic-1">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/di-warm-paint.png" alt="" class="di-cold-pic-1">
 					</div>
 					<span>Больше света</span>
 					<p>	Узкий профиль не занимает много места, позволяя максимуму света поступать в помещение.</p>
@@ -84,7 +84,7 @@ Template Name: Тёплое остекление
 			<div class="col-md-3">
 				<div class="cold-block4 warm-block4">
 					<div class="warm-warp-img">
-						<img src="img/di-warm-clock.png" alt="" class="di-cold-pic-1">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/di-warm-clock.png" alt="" class="di-cold-pic-1">
 					</div>
 					<span>Низкая цена</span>
 					<p>	Благодаря низкой стоимости этот вариант остекления доступен каждому.</p>
@@ -108,43 +108,43 @@ Template Name: Тёплое остекление
 
 							<div> <!-- SLIDE ITEM -->
 								<a href="#"> 
-									<img src="img/db-our.jpg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 								</a>           
 							</div>
 
 							<div> <!-- SLIDE ITEM -->
 								<a href="#"> 
-									<img src="img/db-our.jpg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 								</a>            
 							</div>
 
 							<div> <!-- SLIDE ITEM -->
 								<a href="#"> 
-									<img src="img/db-our.jpg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 								</a>            
 							</div>
 
 							<div> <!-- SLIDE ITEM -->
 								<a href="#"> 
-									<img src="img/db-our.jpg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 								</a>            
 							</div>
 
 							<div> <!-- SLIDE ITEM -->
 								<a href="#"> 
-									<img src="img/db-our.jpg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 								</a>            
 							</div>
 
 							<div> <!-- SLIDE ITEM -->
 								<a href="#"> 
-									<img src="img/db-our.jpg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 								</a>            
 							</div>
 
 							<div> <!-- SLIDE ITEM -->
 								<a href="#"> 
-									<img src="img/db-our.jpg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 								</a>            
 							</div>
 
@@ -185,7 +185,7 @@ Template Name: Тёплое остекление
 					<div class="dd-box_h">
 
 						<div class="dd-img_h">
-							<img src="img/h1.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/h1.png" alt="">
 						</div>
 						<div class="dd-img-detail_h">
 							<span>Размер 3000х1500 мм.</span><br>
@@ -232,7 +232,7 @@ Template Name: Тёплое остекление
 					<div class="dd-box_h">
 
 						<div class="dd-img_h">
-							<img src="img/h2.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/h2.png" alt="">
 						</div>
 						<div class="dd-img-detail_h mt_h">
 							<span>Размер 3000х1500 мм.</span><br>
@@ -280,7 +280,7 @@ Template Name: Тёплое остекление
 					<div class="dd-box_h">
 
 						<div class="dd-img_h">
-							<img src="img/h2.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/h2.png" alt="">
 						</div>
 						<div class="dd-img-detail_h">
 							<span>Размер 3000х1500 мм.</span><br>
@@ -327,7 +327,7 @@ Template Name: Тёплое остекление
 					<div class="dd-box_h">
 
 						<div class="dd-img_h">
-							<img src="img/h33.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/h33.png" alt="">
 						</div>
 						<div class="dd-img-detail_h">
 							<span>Размер 3000х1500 мм.</span><br>
@@ -373,7 +373,7 @@ Template Name: Тёплое остекление
 
 		</div><!-- row -->
 		<div class="dd-str2_h">
-			<img src="img/dd-str2.png" alt="">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/dd-str2.png" alt="">
 		</div>
 	</div><!-- container -->
 </section>
@@ -391,35 +391,35 @@ Template Name: Тёплое остекление
 
 			<div class="col-md-2">
 				<div class="dd-box_lp">
-					<img src="img/di-veka-a.png" class="di-veka" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/di-veka-a.png" class="di-veka" alt="">
 				</div>
 			</div>
 
 			<div class="col-md-2">
 				<div class="dd-box_lp">
-					<img src="img/di-rehau-a.png" class="di-rehau" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/di-rehau-a.png" class="di-rehau" alt="">
 				</div>
 			</div>
 			<div class="col-md-2">
 				<div class="dd-box_lp">
-					<img src="img/di-kbe-a.png" class="di-kbe" alt="">
-				</div>
-			</div>
-
-			<div class="col-md-2">
-				<div class="dd-box_lp">
-					<img src="img/di-knipping-a.png" class="di-knipping" alt="">
-				</div>
-			</div>
-			<div class="col-md-2">
-				<div class="dd-box_lp">
-					<img src="img/di-proplex-a.png" class="di-proplex" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/di-kbe-a.png" class="di-kbe" alt="">
 				</div>
 			</div>
 
 			<div class="col-md-2">
 				<div class="dd-box_lp">
-					<img src="img/di-goodwin-a.png" class="di-goodwin" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/di-knipping-a.png" class="di-knipping" alt="">
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="dd-box_lp">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/di-proplex-a.png" class="di-proplex" alt="">
+				</div>
+			</div>
+
+			<div class="col-md-2">
+				<div class="dd-box_lp">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/di-goodwin-a.png" class="di-goodwin" alt="">
 				</div>
 			</div>
 			<div class="clearfix"></div>

@@ -23,7 +23,7 @@ Template Name: Тёплый пол
 				<div class="col-md-6">
 					<div class="db-up-div">
 						<h2 class="db-floor-one">Пленочный инфракрасный пол</h2>
-						<img src="img/db-floor-one.jpg" alt="img" class="img-responsive">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/db-floor-one.jpg" alt="img" class="img-responsive">
 					</div>				
 					<p class="db-up-p2">
 						<span>Возможность монтажа под любые напольные покрытия;</span><br>
@@ -37,7 +37,7 @@ Template Name: Тёплый пол
 					</div>
 					<div class="col-md-6">
 						<h2 class="db-floor-two">Кабельный теплый пол</h2>
-						<img src="img/db-floor-two.jpg" alt="img" class="img-responsive">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/db-floor-two.jpg" alt="img" class="img-responsive">
 						<p class="db-up-p2">
 							<span>   Единая конструкция, которая не повредится при неаккуратном 
 								использовании;
@@ -78,10 +78,10 @@ Template Name: Тёплый пол
 					<div class="clearfix"></div>
 					<div class="floor-box">
 						<div class="col-md-6">
-							<img src="img/floor-1.png" alt="img" class="img-responsive">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/floor-1.png" alt="img" class="img-responsive">
 						</div>
 						<div class="col-md-6">
-							<img src="img/floor-2.png" alt="img" class="img-responsive">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/floor-2.png" alt="img" class="img-responsive">
 						</div>
 					</div>
 					<div class="clearfix"></div>

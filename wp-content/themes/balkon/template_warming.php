@@ -45,13 +45,13 @@ Template Name: Утепление балкона
 		<h1 class="db-our-h1">Утепление балконов под ключ</h1>
 		<div class="dfwarmblock">
 			<div class="dfwarmbox">
-				<div class="dfwarmimmg"><img src="img/warm1.png" alt=""></div>
+				<div class="dfwarmimmg"><img src="<?php echo get_template_directory_uri(); ?>/img/warm1.png" alt=""></div>
 				<h4 class="dfwarmcap"><span>Радиаторы и конвекторы</span></h4>
 				<span class="dfwarmprice">от <strong>100</strong> руб. за кв.м.</span>
 				<p class="dfwarmtxtbot">Мы предлагаем Вам алюминиемые и биметаллические радиаторы марок GLOBAL,SIRA, RIFAR; cтальные панельные радиаторы KERMI.</p>
 			</div>
 			<div class="dfwarmbox">
-				<div class="dfwarmimmg"><img src="img/warm2.png" alt=""></div>
+				<div class="dfwarmimmg"><img src="<?php echo get_template_directory_uri(); ?>/img/warm2.png" alt=""></div>
 				<h4 class="dfwarmcap"><span>теплый пол</span></h4>
 				<span class="dfwarmprice">от <strong>100</strong> руб. за кв.м.</span>
 				<p class="dfwarmtxtbot">Тёплый пол — система отопления, обеспечивающая нагрев воздуха...
@@ -59,7 +59,7 @@ Template Name: Утепление балкона
 				</p>			
 			</div>
 			<div class="dfwarmbox">
-				<div class="dfwarmimmg"><img src="img/warm3.png" alt=""></div>
+				<div class="dfwarmimmg"><img src="<?php echo get_template_directory_uri(); ?>/img/warm3.png" alt=""></div>
 				<h4 class="dfwarmcap"><span>утепление стен</span></h4>
 				<span class="dfwarmprice">от <strong>100</strong> руб. за кв.м.</span>
 				<p class="dfwarmtxtbot">Основной проблемой внутреннего утепления стен является тот факт, что сама стена не становится теплее и даже начинает больше промерзать.</p>
@@ -80,37 +80,37 @@ Template Name: Утепление балкона
 					<div class="slides"> <!-- BEGIN SLIDES -->
 						<div> <!-- SLIDE ITEM -->
 							<a href="#"> 
-								<img src="img/db-our.jpg" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 							</a>           
 						</div>
 						<div> <!-- SLIDE ITEM -->
 							<a href="#"> 
-								<img src="img/db-our.jpg" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 							</a>            
 						</div>
 						<div> <!-- SLIDE ITEM -->
 							<a href="#"> 
-								<img src="img/db-our.jpg" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 							</a>            
 						</div>
 						<div> <!-- SLIDE ITEM -->
 							<a href="#"> 
-								<img src="img/db-our.jpg" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 							</a>            
 						</div>
 						<div> <!-- SLIDE ITEM -->
 							<a href="#"> 
-								<img src="img/db-our.jpg" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 							</a>            
 						</div>
 						<div> <!-- SLIDE ITEM -->
 							<a href="#"> 
-								<img src="img/db-our.jpg" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 							</a>            
 						</div>
 						<div> <!-- SLIDE ITEM -->
 							<a href="#"> 
-								<img src="img/db-our.jpg" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/db-our.jpg" />
 							</a>            
 						</div>
 					</div> <!-- END SLIDES -->
@@ -140,7 +140,7 @@ Template Name: Утепление балкона
 									</div>
 								</div>
 							</div>
-							<img src="img/di-dec-l.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/di-dec-l.png">
 						</div>
 						<div class="di-left-decor-text">
 							<p class="di-left-decor">
@@ -164,7 +164,7 @@ Template Name: Утепление балкона
 									</div>
 								</div>
 							</div>
-							<img src="img/di-dec-r.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/di-dec-r.png">
 						</div>
 						<div class="di-left-decor-text">
 							<p class="di-left-decor">
